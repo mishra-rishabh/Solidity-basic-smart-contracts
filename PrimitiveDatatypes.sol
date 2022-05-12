@@ -51,7 +51,7 @@ contract PrimitiveDatatypes {
     bool public iAmBoolVar = true ;
 
     /*
-        3.  bytes type: It represents a sequence of bytes. It is of two types
+        3.  bytes type: It represents a sequence of bytes. It is of two types-
             a.  fixed-size byte arrays: Like uint and int, bytes also have different sizes.
                 The value types bytes1, bytes2, bytes3, …, bytes32 contain a sequence of bytes (from 1 to 32).
 
