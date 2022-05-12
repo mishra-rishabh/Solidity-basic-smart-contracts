@@ -11,6 +11,7 @@ contract Conditionals {
           1.    if statement
           2.    if else statement
           3.    if else-if else statement
+          4.    ternary operators
     */
 
     // 1. if statement
@@ -68,5 +69,10 @@ contract Conditionals {
             NOTE: The function argument (_num) is of type int and not uint because uint
             does not support negative numbers but int does.
         */
+    }
+
+    // 4. ternary operators
+    function ternaryOperator( uint _num1 , uint _num2 ) public pure returns ( bool ) {
+        return _num1 > _num2 ? true : false ;
     }
 }
